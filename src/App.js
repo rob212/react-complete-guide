@@ -29,9 +29,6 @@ const App = () => {
 
   const addExpenseHandler = (expense) => {
     setExpenses((prevExpenses) => {
-      console.log("Rob here just added");
-      console.log(expense);
-      console.log(prevExpenses);
       return [...prevExpenses, expense];
     });
   };
